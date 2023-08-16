@@ -15,7 +15,7 @@ OBJS	=	$(SOURCES:.cpp=.o)
 
 NAME	=	Harl
 
-CC		=	g++
+CC		=	c++
 
 #DEBUG	=	-g3
 

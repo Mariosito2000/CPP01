@@ -15,7 +15,7 @@ OBJS	=	$(SOURCES:.cpp=.o)
 
 NAME	=	harlFilter
 
-CC		=	g++
+CC		=	c++
 
 #DEBUG	=	-g3
 

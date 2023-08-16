@@ -15,7 +15,7 @@ OBJS	=	$(SOURCES:.cpp=.o)
 
 NAME	=	Brain
 
-CC		=	g++
+CC		=	c++
 
 #DEBUG	=	-g3
 

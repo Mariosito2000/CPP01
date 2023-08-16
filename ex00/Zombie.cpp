@@ -6,7 +6,7 @@ Zombie::Zombie()
 
 Zombie::~Zombie()
 {
-	std::cout << name << ": Me mueeeeero (si, zombie bilingüe)\n";
+	std::cout << name << ": Me mueeeeero (si, zombilingüe)\n";
 }
 
 void	Zombie::announce()

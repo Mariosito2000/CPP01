@@ -14,7 +14,7 @@ OBJS	=	$(SOURCES:.cpp=.o)
 
 NAME	=	place_place
 
-CC		=	g++
+CC		=	c++
 
 #DEBUG	=	-g3
 

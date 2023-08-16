@@ -17,7 +17,7 @@ OBJS	=	$(SOURCES:.cpp=.o)
 
 NAME	=	Peace_was_never_an_option
 
-CC		=	g++
+CC		=	c++
 
 #DEBUG	=	-g3
 

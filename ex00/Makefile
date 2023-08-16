@@ -18,7 +18,7 @@ OBJS	=	$(SOURCES:.cpp=.o)
 
 NAME	=	TWD
 
-CC		=	g++
+CC		=	c++
 
 #DEBUG	=	-g3
 
