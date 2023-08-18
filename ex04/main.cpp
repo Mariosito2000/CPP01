@@ -22,7 +22,6 @@ int	main(int argc, char **argv)
 		}
 		while (getline(file, line))
 		{
-			//printf ("%s", line.c_str());
 			for (size_t i = 0; i < line.length(); i++)
 			{
 				if (!std::strncmp(&line[i], argv[2], ((std::string)argv[2]).length()))
