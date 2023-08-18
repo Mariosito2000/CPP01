@@ -31,24 +31,17 @@ void	Harl::complain( std::string level )
 		if (lvl[i] == level)
 			break;
 	}
-	
+
 	switch (i)
 	{
 	case 0:
-		for (int j = i; j < 4; j++)
-			(this->*complain_lvls[j])();
-		break;
+			(this->*complain_lvls[0])();
 	case 1:
-		for (int j = i; j < 4; j++)
-			(this->*complain_lvls[j])();
-		break;
+			(this->*complain_lvls[1])();
 	case 2:
-		for (int j = i; j < 4; j++)
-			(this->*complain_lvls[j])();
-		break;
+			(this->*complain_lvls[2])();
 	case 3:
-		for (int j = i; j < 4; j++)
-			(this->*complain_lvls[j])();
+			(this->*complain_lvls[3])();
 		break;
 	default:
 		std::cout << "[ Me estas haciendo perder el tiempo ]\n";

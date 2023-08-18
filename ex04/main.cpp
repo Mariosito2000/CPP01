@@ -7,6 +7,11 @@ int	main(int argc, char **argv)
 		std::cout << "Incorrect number of arguments\n";
 		std::exit(1);
 	}
+	if (((std::string)argv[2]).length() == 0)
+	{
+		std::cout << "Thats not a word i can change\n";
+		std::exit(1);
+	}
 	std::ifstream file;
 	file.open(argv[1]);
 	if (file.is_open())
